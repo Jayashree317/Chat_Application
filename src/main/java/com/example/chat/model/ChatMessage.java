@@ -2,9 +2,18 @@ package com.example.chat.model;
 
 public class ChatMessage {
 
+    private String id;
     private String sender;
     private String content;
     private String type;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getSender() {
         return sender;
